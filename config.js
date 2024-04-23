@@ -14,12 +14,12 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Astropeda/Asta-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaWgCOH1iUxUofORBN3K";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaWgCOH1iUxUofORBN3K";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/ZkBjWK2.jpg";
 global.devs = "2348039607375";
-global.sudo = process.env.SUDO || "2348039607375";
-global.owner = process.env.OWNER_NUMBER || "2348039607375";
+global.sudo = process.env.SUDO || "917318812338";
+global.owner = process.env.OWNER_NUMBER || "917318812338";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©ᴀsᴛᴀ ᴍᴅ",
-  author: process.env.PACK_AUTHER || "ᴀsᴛᴀ ᴍᴅ",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "ᴀsᴛᴀ ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "ᴀsᴛᴀ",
+  caption: process.env.CAPTION || "✪⏤͟͞★⃝ꪶ‎𝐀ᴅɪᴛʏᴀ-𝐗ᴅ-𖥘✪͜͡➺",
+  author: process.env.PACK_AUTHER || "[ !! < 𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ > !! ]",
+  packname: process.env.PACK_NAME || "",
+  botname: process.env.BOT_NAME || "[ !! < 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ > !! ]",
+  ownername: process.env.OWNER_NAME || "✪⏤͟͞★⃝ꪶ‎𝐀ᴅɪᴛʏᴀ-𝐗ᴅ-𖥘✪͜͡➺",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
